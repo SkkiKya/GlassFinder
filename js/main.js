@@ -2,13 +2,8 @@
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB73SRtNFdvCH14o6orbIaQ3KzG_98Y43M",
-  authDomain: "glassfinder-d5927.firebaseapp.com",
-  databaseURL: "https://glassfinder-d5927.firebaseio.com",
-  projectId: "glassfinder-d5927",
-  storageBucket: "glassfinder-d5927.appspot.com",
-  messagingSenderId: "63645189116",
-  appId: "1:63645189116:web:a86a52d6cdc49a529ea879"
+  // セキュリティの面より自分の認証コードは載せていません。
+  // ここにFirebaseの認証コードを入れてください！
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
