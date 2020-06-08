@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCamera</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/face.js"></script>
+  <script src="js/ccv.js"></script>
+</head>
+
+<body>
+  <h1>GlassFinder</h1>
+  <button id="shutter">シャッター</button>
+  <div id="container">
+    <!-- <form> -->
+      <!-- </form> -->
+  <video id="camera" width="640" height="480" autoplay></video>
+  <span>今回の画像<canvas id="picture" width="640" height="480"></canvas></span>
+  <!-- <canvas id="img" width="640" height="480"></canvas> -->
+
+  <span>1<canvas id="1" width="640" height="480"></canvas></span>
+  <span>2<canvas id="2" width="640" height="480"></canvas></span>
+  <span>3<canvas id="3" width="640" height="480"></canvas></span>
+  <span>4<canvas id="4" width="640" height="480"></canvas></span>
+
+  <audio id="se" preload="auto">
+    <source src="audio/camera-shutter3.mp3" type="audio/mp3">
+  </audio>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-firestore.js"></script>
+
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
